@@ -130,3 +130,17 @@
         transform: rotate(360deg);
     }
 }
+
+@media screen and (min-width: 300px) and (max-width: 800px) {
+    .higway {
+        animation: higway 7s linear infinite;
+        width: 1000%;
+    }
+
+    .hero h2 {
+        top: 25px;
+        font-size: 35px;
+        width: 90%;
+        white-space: normal;
+    }
+}
