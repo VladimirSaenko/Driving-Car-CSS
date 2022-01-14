@@ -134,7 +134,7 @@
 @media screen and (min-width: 300px) and (max-width: 800px) {
     .higway {
         animation: higway 7s linear infinite;
-        width: 1000%;
+        width: 1500%;
     }
 
     .hero h2 {
