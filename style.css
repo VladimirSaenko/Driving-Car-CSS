@@ -33,13 +33,13 @@
     border-width: 5px;
 }
 
-.higway {
+.highway {
     position: absolute;
     bottom: 0;
     left: 0;
     right: 0;
     z-index: 1;
-    animation: higway 5s linear infinite;
+    animation: highway 5s linear infinite;
     height: 200px;
     width: 500%;
     background-repeat: repeat-x;
@@ -47,7 +47,7 @@
     background: url(images/road.jpg);
 }
 
-@keyframes higway {
+@keyframes highway {
     100% {
         transform: translateX(-3400px);
     }
@@ -132,8 +132,8 @@
 }
 
 @media screen and (min-width: 300px) and (max-width: 800px) {
-    .higway {
-        animation: higway 7s linear infinite;
+    .highway {
+        animation: highway 7s linear infinite;
         width: 1500%;
     }
 
