@@ -6,7 +6,7 @@
     box-sizing: border-box;
 }
 
-.hero {
+.container {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -20,7 +20,7 @@
     text-align: center;
 }
 
-.hero h2 {
+.container h2 {
     position: absolute;
     top: 50px;
     padding: 10px 10px;
@@ -137,7 +137,7 @@
         width: 1500%;
     }
 
-    .hero h2 {
+    .container h2 {
         top: 25px;
         font-size: 35px;
         width: 90%;
